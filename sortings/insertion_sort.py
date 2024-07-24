@@ -5,6 +5,3 @@ def insertion_sort(nums: list[int]) -> list[int]:
             nums[j], nums[j - 1] = nums[j - 1], nums[j]
             j -= 1
     return nums
-
-
-print(insertion_sort([3, 4, 0, 19, 10, 11, 1, 3]))
